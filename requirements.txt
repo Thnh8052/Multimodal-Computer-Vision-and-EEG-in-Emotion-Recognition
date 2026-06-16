@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+mne
+tqdm
+
+# Optional experimental dependencies:
+# torch
+# xgboost

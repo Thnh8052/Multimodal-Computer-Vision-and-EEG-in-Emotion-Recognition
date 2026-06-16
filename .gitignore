@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.bak
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local data and generated artifacts
+old_version/
+data/raw/**
+data/processed/**
+results/**
+outputs/**
+models/**
+checkpoints/**
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.pkl
+*.edf
+*.bdf
+*.fif
+
+# Keep documentation placeholders
+!data/
+!data/raw/
+!data/raw/.gitkeep
+!data/processed/
+!data/processed/.gitkeep
+!results/
+!results/README.md
+!results/.gitkeep
+
+# Reference PDFs may be copyrighted or large. Add explicit exceptions if needed.
+docs/references/*.pdf

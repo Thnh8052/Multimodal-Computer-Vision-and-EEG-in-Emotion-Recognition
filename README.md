@@ -141,7 +141,3 @@ Experimental EEGNet code has been moved to `old_version/` and is not part of the
 - Report trial-level metrics after aggregating segment probabilities.
 - Keep raw data, `.npy` matrices, per-trial predictions, and generated plots outside normal Git.
 - Commit only small, curated, anonymized summaries when they are needed for a release or paper.
-
-## License
-
-No license has been selected yet. Add a `LICENSE` file before making this repository public so users know how they may reuse the code.

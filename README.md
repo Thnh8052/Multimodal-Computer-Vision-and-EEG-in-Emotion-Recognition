@@ -131,13 +131,3 @@ python scripts/training/train_affec_v6_robust_v2.py \
   --drop_top_id 10 \
   --eda_dir results/final/v6D_eda_reports/phase1_qa_corr
 ```
-
-Experimental EEGNet code has been moved to `old_version/` and is not part of the final GitHub upload.
-
-## Reproducibility Notes
-
-- Split by `original_trial_uid`, not by generated segment rows.
-- Keep all segments from the same original trial in the same split.
-- Report trial-level metrics after aggregating segment probabilities.
-- Keep raw data, `.npy` matrices, per-trial predictions, and generated plots outside normal Git.
-- Commit only small, curated, anonymized summaries when they are needed for a release or paper.
